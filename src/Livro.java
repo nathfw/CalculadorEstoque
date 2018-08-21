@@ -9,7 +9,7 @@ public class Livro {
 	String isbn;
 	Autor autor;
 	
-	//Impress„o dos dados do cadastro	
+	//Impress√£o dos dados do cadastro	
 	void mostrarDetalhes() {
 		System.out.println("Mostrando Detalhes do livro");
 		System.out.println("Nome: " + nome);
@@ -21,7 +21,7 @@ public class Livro {
 		System.out.println("--");
 		
 	}
-	//this indica que È um atributo alÈm de v·riavel 
+	//this indica que √© um atributo al√©m de v√°riavel da classe
 		public void aplicarDesconteDe (double porcetagem) {
 			this.valor -= this.valor * porcetagem;
 		}
